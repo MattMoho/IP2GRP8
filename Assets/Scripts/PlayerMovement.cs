@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     float startXpos;
     float startYpos;
+    public Transform crosshair;
 
     // Start is called before the first frame update
     void Start()
